@@ -21,7 +21,7 @@ def get_path(file_name):
 
 def download_titanic_dataset():
     url = 'https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv'
-    df = pd.read_csv(url)
+    df = pd.read_csv('url')
     df.to_csv(get_path('titanic.csv'), encoding='utf-8')
 
 
